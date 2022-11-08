@@ -1,4 +1,5 @@
 const { pool } = require("../../../../lib/mysql/connection");
+
 const { setContextValue, hasContextValue } = require("../../../graphql/services/contextHelper");
 
 module.exports = (request, response) => {
